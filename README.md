@@ -13,5 +13,8 @@ git branch -M main
 git remote add origin https://github.com/Gadrawingz/random-quote-machine-app.git
 git push -u origin main
 
-## Happy coding and enjoy your life
 ```
+
+### Happy coding and enjoy your life
+
+### Copyright @Gad Iradufasha @2023
