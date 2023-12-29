@@ -1,8 +1,11 @@
 # Random Quote Machine Application
 
+> Great Picture
+![Alt text](image.png)
+
 ## Quick setup related to version control
 
-### The following commands used:
+### The following commands used for CVS:
 
 ``` git
 echo "# random-quote-machine-app" >> README.md
