@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell=400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
 /* basic css */
 * {
   margin: 0;
@@ -25,12 +25,13 @@ body {
 
 /* styling  quote-box */ 
 #quote-box {
-  border-radius: 3px;
-  position: relative;
-  width: 500px;
-  padding: 40px 50px;
-  display: table;
-  background-color: #fff;
+    border: 5px solid rgb(114, 165, 223); 
+    border-radius: 20px;
+    position: relative;
+    width: 500px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
 }
 
 #quote-box .quote-text {
@@ -41,15 +42,22 @@ body {
   font-weight: 500;
   font-size: 1.75em;
 }
+
 /* customize the size of quotes */ 
+#quote-box .quote-text i {
+    font-size: 0.8em;
+    margin-right: 1em;
+    color: blue
+  }
 
 #quote-box .quote-author {
-  width: 500px;
+font-family: 'Parisienne';
+  width: inherit;
   height: auto;
   clear: both;
-  padding-top: 25px;
-  font-size: 1.2em;
-  text-decoration: overline;
+  padding-top: 30px;
+  font-size: 1.4em;
+  font-weight: bolder;
   text-align: center;
 }
 #quote-box .buttons {
@@ -62,7 +70,7 @@ body {
   border: 1px solid blueviolet;
   border-radius: 3px;
   color: #fff;
-  background-color: #333;
+  background-color: blue;
   outline: none;
   font-size: 0.85em;
   padding: 8px 18px 6px 18px;
@@ -84,6 +92,14 @@ body {
 
 #quote-box .buttons .button#new-quote {
   float: right;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.rule {
+    height: 1em;
+    background: #000;
+    margin: 30px 0;
 }
 
 /* Footer styling */
