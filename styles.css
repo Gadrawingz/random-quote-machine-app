@@ -1,39 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell=400,700');
+
+/* basic css */
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
 }
-/* Setup CSS */
+
 div {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 body {
-    background: #000;
-    color: brown;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.footer {
-    width: 500px;
-    background-color: blue;
-    border: 1px solid rgba(245, 245, 245, 0.903);
-    text-align: center;
-    display: block;
-    margin: 20px;
-    padding: 6px;
-    font-size: 22px;
-    color: whitesmoke;
+/* styling  quote-box */ 
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 500px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
 }
-.footer a {
-    text-decoration: none;
-    color: #fff;
+
+#quote-box .quote-text {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
 }
-  
+/* customize the size of quotes */ 
+
+#quote-box .quote-author {
+  width: 500px;
+  height: auto;
+  clear: both;
+  padding-top: 25px;
+  font-size: 1.2em;
+  text-decoration: overline;
+  text-align: center;
+}
+#quote-box .buttons {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 40px;
+  border: 1px solid blueviolet;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#quote-box .buttons .button#tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
+
+/* Footer styling */

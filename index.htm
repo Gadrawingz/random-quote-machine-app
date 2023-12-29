@@ -6,35 +6,37 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
     />
-    <title>Random Quote Machine | FreeCodeCamp Challenge - Gad</title>
+    <title>FCC : Random Quote Machine</title>
   </head>
   <body>
     <div id="wrapper">
       <div id="quote-box">
-        <div class="text">
-          <!-- Some quotes here --->
+        
+        <div class="quote-text">
+          <i class="fa fa-quote-left"></i>
+          <span id="text">Above all power</span>
+          <i class="fa fa-quote-right"></i>
         </div>
-        <div class="author">
-          <!-- Quote Author here --->
+        
+        <div class="quote-author">
+          <span id="author">2 Pac</span>
         </div>
-
-        <div class="clickable">
-          <a href="#">New Quote</a>
-          <a href="twitter.com/intent/tweet" id="tweet-quote" target="_blank">Tweet Quote</a>
+        
+        <div class="buttons">
+          <button class="button" id="new-quote">Click here!</button>
+          <a title="Publish it on X" class="button" id="tweet-quote" target="_top">
+            <i class="fa fa-twitter"></i>
+          </a>
         </div>
+        
       </div>
       <div class="footer">
-        <a href="https://codepen.io/gadrawingz/pen/oNVXGVm"
-          >Pen by Gad Iradufasha</a
-        >
+        <a href="https://codepen.io/gadrawingz/pen/oNVXGVm">Pen by Gad Iradufasha</a>
+        <a href="https://github.com/Gadrawingz">My GitHub Account</a>
       </div>
     </div>
-    <!-- Current jQuery links and CDN links-->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
