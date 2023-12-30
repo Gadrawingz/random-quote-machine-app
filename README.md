@@ -1,7 +1,14 @@
 # Random Quote Machine Application
 
-> Great Picture
+>This simple project is dedicated to FreeCodeCamp!
+
+## Great Picture
+
 ![Alt text](image.png)
+
+### Full Codepen Screen
+
+![Alt text](image-1.png)
 
 ## Quick setup related to version control
 
@@ -17,6 +24,10 @@ git remote add origin https://github.com/Gadrawingz/random-quote-machine-app.git
 git push -u origin main
 
 ```
+
+## Below is my codepen link
+
+My codepen[https://codepen.io/gadrawingz/pen/oNVXGVm]
 
 ### Happy coding and enjoy your life
 
